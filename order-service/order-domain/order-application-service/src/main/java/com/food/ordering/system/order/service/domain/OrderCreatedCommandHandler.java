@@ -61,7 +61,6 @@ public class OrderCreatedCommandHandler {
         }
         log.info("Saved order with order id {} ", order.getId().getValue());
         return orderResult;
-
     }
 
     private Restaurant checkRestaurant(CreateOrderCommand createOrderCommand) {
